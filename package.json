@@ -1,0 +1,30 @@
+{
+	"name": "gozhtet-notion",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.ts",
+	"type": "module",
+	"gozhtet": {
+		"name": "gozhtet-notion",
+		"description": "gozhtet-notion description",
+		"plugin": "build/gozhtet-notion.js",
+		"theme": {
+			"colors": "colors.json",
+			"css": "build/style.css"
+		}
+	},
+	"scripts": {
+		"dev": "gozhtet dev",
+		"build": "gozhtet build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"gozhtet",
+		"gozhtet-plugin"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@gozhtet/plugin-api": "^1.1.5"
+	}
+}
